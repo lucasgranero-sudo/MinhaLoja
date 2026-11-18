@@ -5,9 +5,8 @@ App Android feito para o desafio da aula: loja de produtos usando **Retrofit** (
 
 ## Integrantes do grupo
 
-- NOME COMPLETO 1
-- NOME COMPLETO 2
-- NOME COMPLETO 3
+- Lucas Loiro - RA: 206363
+- Arthur Lima - RA: 243318
 
 ## O que o app faz
 
