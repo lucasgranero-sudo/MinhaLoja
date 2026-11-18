@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">MinhaLoja</string>
+
+    <!-- Login -->
+    <string name="email">E-mail</string>
+    <string name="senha">Senha</string>
+    <string name="entrar">Entrar</string>
+    <string name="criar_conta">Criar conta</string>
+    <string name="subtitulo_login">Entre para ver os produtos e salvar seus favoritos</string>
+    <string name="erro_campos_vazios">Preencha o e-mail e a senha.</string>
+    <string name="erro_email_invalido">E-mail inválido. Confira se digitou certo.</string>
+    <string name="erro_senha_curta">A senha precisa ter pelo menos 6 caracteres.</string>
+    <string name="erro_email_em_uso">Já existe uma conta com esse e-mail.</string>
+    <string name="erro_usuario_nao_existe">Não existe conta com esse e-mail.</string>
+    <string name="erro_credenciais">E-mail ou senha incorretos.</string>
+    <string name="erro_sem_internet">Sem conexão com a internet.</string>
+    <string name="erro_generico">Não foi possível entrar. Tente de novo.</string>
+
+    <!-- Produtos -->
+    <string name="produtos">Produtos</string>
+    <string name="meus_favoritos">Meus favoritos</string>
+    <string name="sair">Sair</string>
+    <string name="dica_salvar">Toque em um produto para salvar nos favoritos</string>
+    <string name="tentar_novamente">Tentar novamente</string>
+    <string name="carregando_produtos">Carregando produtos…</string>
+    <string name="nenhum_produto">Nenhum produto encontrado.</string>
+    <string name="erro_carregar_produtos">Erro ao carregar os produtos. Verifique sua internet.</string>
+    <string name="favorito_salvo">Salvo nos favoritos!</string>
+    <string name="erro_salvar_favorito">Erro ao salvar: %1$s</string>
+
+    <!-- Favoritos -->
+    <string name="voltar">Voltar</string>
+    <string name="remover">Remover</string>
+    <string name="nenhum_favorito">Você ainda não tem favoritos.</string>
+    <string name="favorito_removido">Favorito removido</string>
+    <string name="erro_carregar_favoritos">Erro ao carregar favoritos: %1$s</string>
+    <string name="erro_remover_favorito">Erro ao remover: %1$s</string>
+</resources>

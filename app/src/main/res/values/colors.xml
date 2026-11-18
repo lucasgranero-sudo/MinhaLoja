@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- cores da loja: azul + laranja -->
+    <color name="loja_primary">#1E4D8C</color>
+    <color name="loja_on_primary">#FFFFFF</color>
+    <color name="loja_secondary">#F28C28</color>
+    <color name="loja_on_secondary">#2B1700</color>
+    <color name="loja_erro">#B3261E</color>
+    <color name="loja_cinza">#6B6B6B</color>
+</resources>

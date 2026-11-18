@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Widget.Material3.CardView.Elevated"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txv_titulo_favorito"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                tools:text="Fjallraven - Foldsack No. 1 Backpack" />
+
+            <TextView
+                android:id="@+id/txv_preco_favorito"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:textColor="@color/loja_primary"
+                android:textStyle="bold"
+                tools:text="US$ 109.95" />
+
+            <TextView
+                android:id="@+id/txv_categoria_favorito"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/loja_cinza"
+                tools:text="men's clothing" />
+
+            <TextView
+                android:id="@+id/txv_salvo_em"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:textColor="@color/loja_cinza"
+                android:textSize="12sp"
+                tools:text="Salvo em 18/11/2026 20:30" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_remover"
+            style="@style/Widget.Material3.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/remover"
+            android:textColor="@color/loja_erro" />
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
