@@ -22,7 +22,7 @@ App Android feito para o desafio da aula: loja de produtos usando **Retrofit** (
 ## Estrutura do código
 
 ```
-app/src/main/java/br/unisanta/minhaloja/
+app/src/main/kotlin/br/unisanta/minhaloja/
 ├── Produto.kt            -> data class do produto (+ Rating)
 ├── Favorito.kt           -> data class do favorito salvo no Firestore
 ├── ProdutoService.kt     -> interface do Retrofit (GET /products)
